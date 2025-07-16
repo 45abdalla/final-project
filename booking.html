@@ -1,0 +1,59 @@
+ 3. booking.html (Guest Booking Form)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Booking - Final Project</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Guest Booking</h1>
+    <nav>
+      <a href="index.html">Home</a> &nbsp;&nbsp;
+      <a href="gallery.html">Gallery</a>&nbsp;&nbsp;
+      <a href="booking.html">Booking</a>&nbsp;&nbsp;
+      <a href="help.html">Help</a>&nbsp;&nbsp;
+      <a href="about.html">About</a>&nbsp;&nbsp;
+    </nav>
+  </header>
+
+  <main>
+    <form>
+      <fieldset>
+        <legend>Guest Info</legend>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" required placeholder="Enter your name" />
+
+        <label for="major">Major:</label>
+        <select id="major">
+          <option>Computer Science</option>
+          <option>Information Tech</option>
+        </select>
+
+        <p>Gender:</p>
+        <label><input type="radio" name="gender" value="male" /> Male</label>
+        <label><input type="radio" name="gender" value="female" /> Female</label>
+
+        <p>Hobbies:</p>
+        <label><input type="checkbox" name="hobby" value="coding" /> Coding</label>
+        <label><input type="checkbox" name="hobby" value="reading" /> Reading</label>
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" placeholder="Type your comments..."></textarea>
+
+        <br /><br />
+        <input type="submit" value="Submit" />
+      </fieldset>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 abdalla mohamuud mohamed</p>
+  </footer>
+</body>
+</html>
+
+
